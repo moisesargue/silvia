@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>moi</title>
+</head>
+<body>
+    <h1>Calcular salario</h1>
+
+    <form>
+        <label>Horas trabajadas:</label>
+        <input type="number" id="horas" required>
+        <br>
+        <label>Categoría:</label>
+        <select id="categoria" required>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+        </select>
+        <br>
+        <button type="button" onclick="calcular()">Calcular salario</button>
+    </form>
+    <p id="resultado"></p>
+    <script src="silvia.js"></script>
+        
+    
+</body>
+</html>
